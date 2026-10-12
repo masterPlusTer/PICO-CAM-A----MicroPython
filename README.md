@@ -17,7 +17,7 @@ Estado: fotografía y vista en vivo confirmadas en hardware. Existe una versión
 Hardware y conexiones
 Hardware utilizado en las pruebas:
 Componente	Descripción
-Placa	SpotPear PICO-Cam-A, basada en RP2040
+Placa	WaveShare PICO-Cam-A, basada en RP2040 (tambien comercializada por SpotPear)
 Sensor	Himax HM01B0 monocromático
 Pantalla	ST7789, 240 × 135, RGB565
 Procesador	RP2040 (dos núcleos Cortex-M0+)
