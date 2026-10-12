@@ -1,7 +1,7 @@
 # PICO-CAM-A----MicroPython
 
 PICO-Cam-A con MicroPython 📷
-Una cámara monocromática con vista en vivo, hecha en MicroPython sobre la SpotPear PICO-Cam-A (RP2040 + HM01B0 + ST7789).
+Una cámara monocromática con vista en vivo, hecha en MicroPython sobre la PICO-Cam-A de WaveShare (RP2040 + HM01B0 + ST7789).
 Este proyecto nació de una pregunta bastante sencilla: ¿podemos controlar directamente la cámara y la pantalla desde MicroPython, sin depender de un programa completo escrito en C? La respuesta es sí. Conseguimos inicializar el sensor, capturar imágenes usando PIO y DMA, mostrarlas en la pantalla y ejecutar una vista en vivo. No es una cámara de cine, pero para aprender cómo funciona el hardware es mucho más interesante. 😄
 Estado: fotografía y vista en vivo confirmadas en hardware. Existe una versión optimizada (FAST-2, con Viper) preparada para mejorar la velocidad del LCD, pero todavía no tenemos una medición de FPS verificada para esa versión.
 
